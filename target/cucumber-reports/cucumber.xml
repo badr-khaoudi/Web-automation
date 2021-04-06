@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="3" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="20" time="704.733">
+<testcase classname="Feature to deal with some action to different content" name="Check liking content" time="21.699">
+<system-out><![CDATA[Given Doing a random actions to contents....................................passed
+And user is on the loginPage................................................passed
+When user enters the username & the password................................passed
+And clicks on the loginButton...............................................passed
+Then user on homePage.......................................................passed
+When user likes a content...................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Feature to deal with some action to different content" name="Check commenting content with text only" time="22.86">
+<system-out><![CDATA[Given Doing a random actions to contents....................................passed
+And user is on the loginPage................................................passed
+When user enters the username & the password................................passed
+And clicks on the loginButton...............................................passed
+Then user on homePage.......................................................passed
+When user comments content with text only...................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Feature to deal with some action to different content" name="Check commenting content with an image" time="75.78">
+<system-out><![CDATA[Given Doing a random actions to contents....................................passed
+And user is on the loginPage................................................passed
+When user enters the username & the password................................passed
+And clicks on the loginButton...............................................passed
+Then user on homePage.......................................................passed
+When user comments content with an image....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Feature to deal with some action to different content" name="Check commenting content with a document" time="46.285">
+<system-out><![CDATA[Given Doing a random actions to contents....................................passed
+And user is on the loginPage................................................passed
+When user enters the username & the password................................passed
+And clicks on the loginButton...............................................passed
+Then user on homePage.......................................................passed
+When user comments content with a document..................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Feature to deal with some action to different content" name="Check commenting content with a link" time="35.329">
+<failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;div[@ng-click=&quot;$ctrl.onClick($index)&quot;]&quot;}&#10;  (Session info: chrome=89.0.4389.90)&#10;For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element&#10;Build info: version: '4.0.0-alpha-5', revision: 'b3a0d621cc'&#10;System info: host: 'LAPTOP-9Q7NUHUF', ip: '10.17.44.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.90, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\BADR\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:59577}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 8acd16ff3240a22bfdc7636b40d1e3f5&#10;*** Element info: {Using=xpath, value=div[@ng-click=&quot;$ctrl.onClick($index)&quot;]}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[Given Doing a random actions to contents....................................passed
+And user is on the loginPage................................................passed
+When user enters the username & the password................................passed
+And clicks on the loginButton...............................................passed
+Then user on homePage.......................................................passed
+When user comments content with a link......................................failed
+
+StackTrace:
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"div[@ng-click="$ctrl.onClick($index)"]"}
+  (Session info: chrome=89.0.4389.90)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.0.0-alpha-5', revision: 'b3a0d621cc'
+System info: host: 'LAPTOP-9Q7NUHUF', ip: '10.17.44.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.90, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\BADR\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:59577}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 8acd16ff3240a22bfdc7636b40d1e3f5
+*** Element info: {Using=xpath, value=div[@ng-click="$ctrl.onClick($index)"]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:196)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:129)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:161)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:582)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:333)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:451)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:394)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:325)
+	at StepDefinitions.ActionSteps.commenting_content_link(ActionSteps.java:144)
+	at ✽.user comments content with a link(file:///C:/Users/BADR/eclipse-workspace/AQL-Testing/TestAutomation/src/test/resources/Features/Action.feature:46)
+]]></failure>
+</testcase>
+<testcase classname="Feature to deal with an article" name="Check adding an article" time="5.276">
+<failure message="unknown error: Chrome failed to start: exited normally.&#10;  (chrome not reachable)&#10;  (The process started from chrome location C:\Program Files (x86)\Google\Chrome\Application\chrome.exe is no longer running, so ChromeDriver is assuming that Chrome has crashed.)&#10;Build info: version: '4.0.0-alpha-5', revision: 'b3a0d621cc'&#10;System info: host: 'LAPTOP-9Q7NUHUF', ip: '10.17.44.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: Backtrace:&#10;&#9;GetHandleVerifier [0x005EB963+483]&#10;&#9;GetHandleVerifier [0x005EB941+449]&#10;&#9;GetHandleVerifier [0x00993308+3832712]&#10;&#9;GetHandleVerifier [0x009A9FA6+3926054]&#10;&#9;GetHandleVerifier [0x009A7D9C+3917340]&#10;&#9;GetHandleVerifier [0x009CE7FE+4075646]&#10;&#9;GetHandleVerifier [0x009CE56C+4074988]&#10;&#9;GetHandleVerifier [0x009CB2EB+4062059]&#10;&#9;GetHandleVerifier [0x009AED14+3945876]&#10;&#9;GetHandleVerifier [0x009AFBCE+3949646]&#10;&#9;GetHandleVerifier [0x009AFB59+3949529]&#10;&#9;Ordinal0 [0x005AB5CC+46540]&#10;&#9;Ordinal0 [0x005A9F53+40787]&#10;&#9;Ordinal0 [0x005A9B12+39698]&#10;&#9;GetHandleVerifier [0x008B1468+2907368]&#10;&#9;GetHandleVerifier [0x006F71EE+1096302]&#10;&#9;GetHandleVerifier [0x006B3E8D+821005]&#10;&#9;GetHandleVerifier [0x006B396B+819691]&#10;&#9;GetHandleVerifier [0x006B3881+819457]&#10;&#9;GetHandleVerifier [0x006DF463+998627]&#10;&#9;BaseThreadInitThunk [0x752CFA29+25]&#10;&#9;RtlGetAppContainerNamedObjectPath [0x773A7C7E+286]&#10;&#9;RtlGetAppContainerNamedObjectPath [0x773A7C4E+238]&#10;" type="org.openqa.selenium.WebDriverException"><![CDATA[Given Adding an article.....................................................failed
+And user is on the login page...............................................skipped
+When user enters the username and the password..............................skipped
+And clicks on the login button..............................................skipped
+Then user on the home page..................................................skipped
+When clicks on the add content button.......................................skipped
+And clicks on the add new content...........................................skipped
+When clicks on add article..................................................skipped
+And add the article title & subtitle........................................skipped
+When add the community content..............................................skipped
+And add article text content................................................skipped
+And add a document to the article...........................................skipped
+Then submitting the article form............................................skipped
+
+StackTrace:
+org.openqa.selenium.WebDriverException: unknown error: Chrome failed to start: exited normally.
+  (chrome not reachable)
+  (The process started from chrome location C:\Program Files (x86)\Google\Chrome\Application\chrome.exe is no longer running, so ChromeDriver is assuming that Chrome has crashed.)
+Build info: version: '4.0.0-alpha-5', revision: 'b3a0d621cc'
+System info: host: 'LAPTOP-9Q7NUHUF', ip: '10.17.44.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	GetHandleVerifier [0x005EB963+483]
+	GetHandleVerifier [0x005EB941+449]
+	GetHandleVerifier [0x00993308+3832712]
+	GetHandleVerifier [0x009A9FA6+3926054]
+	GetHandleVerifier [0x009A7D9C+3917340]
+	GetHandleVerifier [0x009CE7FE+4075646]
+	GetHandleVerifier [0x009CE56C+4074988]
+	GetHandleVerifier [0x009CB2EB+4062059]
+	GetHandleVerifier [0x009AED14+3945876]
+	GetHandleVerifier [0x009AFBCE+3949646]
+	GetHandleVerifier [0x009AFB59+3949529]
+	Ordinal0 [0x005AB5CC+46540]
+	Ordinal0 [0x005A9F53+40787]
+	Ordinal0 [0x005A9B12+39698]
+	GetHandleVerifier [0x008B1468+2907368]
+	GetHandleVerifier [0x006F71EE+1096302]
+	GetHandleVerifier [0x006B3E8D+821005]
+	GetHandleVerifier [0x006B396B+819691]
+	GetHandleVerifier [0x006B3881+819457]
+	GetHandleVerifier [0x006DF463+998627]
+	BaseThreadInitThunk [0x752CFA29+25]
+	RtlGetAppContainerNamedObjectPath [0x773A7C7E+286]
+	RtlGetAppContainerNamedObjectPath [0x773A7C4E+238]
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$1(ProtocolHandshake.java:126)
+	at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Unknown Source)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)
+	at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
+	at java.util.stream.ReferencePipeline.findFirst(Unknown Source)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:139)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:582)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:216)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:136)
+	at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:75)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:163)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:150)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:105)
+	at StepDefinitions.ArticleSteps.browser_is_open(ArticleSteps.java:33)
+	at ✽.Adding an article(file:///C:/Users/BADR/eclipse-workspace/AQL-Testing/TestAutomation/src/test/resources/Features/Article.feature:4)
+]]></failure>
+</testcase>
+<testcase classname="User is checking the content available on the web site" name="User is checking an external link" time="30.002">
+<system-out><![CDATA[Given Checking content......................................................passed
+And user is on login page checking feature..................................passed
+When user enters username and password checking feature.....................passed
+And clicks on login button checking feature.................................passed
+Then user on home page checking feature.....................................passed
+And user checks an external link............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="User is checking the content available on the web site" name="Check adding a quickpost successfully with an image" time="30.638">
+<system-out><![CDATA[Given Browser is open.......................................................passed
+And user is on login page...................................................passed
+When user enters username and password......................................passed
+And clicks on login button..................................................passed
+Then user on home page......................................................passed
+When clicks on add content button...........................................passed
+And clicks on add quickpost button..........................................passed
+Then user on quickpost form.................................................passed
+When selects community content type button..................................passed
+And selected community content..............................................passed
+And filling text area.......................................................passed
+And adding a new picture....................................................passed
+Then submitting the quickpost...............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="User is checking the content available on the web site" name="User is checking an image" time="16.448">
+<system-out><![CDATA[Given Checking content......................................................passed
+And user is on login page checking feature..................................passed
+When user enters username and password checking feature.....................passed
+And clicks on login button checking feature.................................passed
+Then user on home page checking feature.....................................passed
+And user checks an image....................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="User is checking the content available on the web site" name="Check adding a quickpost successfully with a document" time="31.632">
+<system-out><![CDATA[Given Browser is open.......................................................passed
+And user is on login page...................................................passed
+When user enters username and password......................................passed
+And clicks on login button..................................................passed
+Then user on home page......................................................passed
+When clicks on add content button...........................................passed
+And clicks on add quickpost button..........................................passed
+Then user on quickpost form.................................................passed
+When selects community content type button..................................passed
+And selected community content..............................................passed
+And filling text area.......................................................passed
+And adding a new document...................................................passed
+Then submitting the quickpost...............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="User is checking the content available on the web site" name="User is checking a document" time="22.58">
+<system-out><![CDATA[Given Checking content......................................................passed
+And user is on login page checking feature..................................passed
+When user enters username and password checking feature.....................passed
+And clicks on login button checking feature.................................passed
+Then user on home page checking feature.....................................passed
+And user checks a document..................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Feature to test the login functionality" name="Check login successfully" time="23.853">
+<system-out><![CDATA[Given Browser is open.......................................................passed
+And user is on login page...................................................passed
+When user enters username and password......................................passed
+And clicks on login button..................................................passed
+Then user on home page......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Feature to deal with a quickpost" name="Check adding a quickpost successfully with text only" time="58.375">
+<system-out><![CDATA[Given Browser is open.......................................................passed
+And user is on login page...................................................passed
+When user enters username and password......................................passed
+And clicks on login button..................................................passed
+Then user on home page......................................................passed
+When clicks on add content button...........................................passed
+And clicks on add quickpost button..........................................passed
+Then user on quickpost form.................................................passed
+When selects community content type button..................................passed
+And selected community content..............................................passed
+And filling text area.......................................................passed
+And submitting the quickpost................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Feature to deal with a quickpost" name="Check adding a quickpost successfully with an image" time="56.682">
+<system-out><![CDATA[Given Browser is open.......................................................passed
+And user is on login page...................................................passed
+When user enters username and password......................................passed
+And clicks on login button..................................................passed
+Then user on home page......................................................passed
+When clicks on add content button...........................................passed
+And clicks on add quickpost button..........................................passed
+Then user on quickpost form.................................................passed
+When selects community content type button..................................passed
+And selected community content..............................................passed
+And filling text area.......................................................passed
+And adding a new picture....................................................passed
+Then submitting the quickpost...............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Feature to deal with a quickpost" name="Check adding a quickpost successfully with a document" time="37.051">
+<system-out><![CDATA[Given Browser is open.......................................................passed
+And user is on login page...................................................passed
+When user enters username and password......................................passed
+And clicks on login button..................................................passed
+Then user on home page......................................................passed
+When clicks on add content button...........................................passed
+And clicks on add quickpost button..........................................passed
+Then user on quickpost form.................................................passed
+When selects community content type button..................................passed
+And selected community content..............................................passed
+And filling text area.......................................................passed
+And adding a new document...................................................passed
+Then submitting the quickpost...............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Feature to deal with a quickpost" name="Check adding a quickpost successfully with an external link" time="20.491">
+<failure message="javascript error: Unable to find owning document&#10;  (Session info: chrome=89.0.4389.90)&#10;Build info: version: '4.0.0-alpha-5', revision: 'b3a0d621cc'&#10;System info: host: 'LAPTOP-9Q7NUHUF', ip: '10.17.44.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.90, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\BADR\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:60355}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 47bd7c3353a3215ddf5b03da34c97d95" type="org.openqa.selenium.JavascriptException"><![CDATA[Given Browser is open.......................................................passed
+And user is on login page...................................................passed
+When user enters username and password......................................passed
+And clicks on login button..................................................passed
+Then user on home page......................................................passed
+When clicks on add content button...........................................passed
+And clicks on add quickpost button..........................................passed
+Then user on quickpost form.................................................passed
+When selects community content type button..................................passed
+And selected community content..............................................passed
+And filling text area.......................................................passed
+And adding a new external link..............................................failed
+Then submitting the quickpost...............................................skipped
+
+StackTrace:
+org.openqa.selenium.JavascriptException: javascript error: Unable to find owning document
+  (Session info: chrome=89.0.4389.90)
+Build info: version: '4.0.0-alpha-5', revision: 'b3a0d621cc'
+System info: host: 'LAPTOP-9Q7NUHUF', ip: '10.17.44.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.90, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\BADR\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:60355}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 47bd7c3353a3215ddf5b03da34c97d95
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:196)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:129)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:161)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:582)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:316)
+	at org.openqa.selenium.remote.RemoteWebElement.submit(RemoteWebElement.java:90)
+	at StepDefinitions.QuickpostSteps.adding_external_link(QuickpostSteps.java:158)
+	at ✽.adding a new external link(file:///C:/Users/BADR/eclipse-workspace/AQL-Testing/TestAutomation/src/test/resources/Features/Quickpost.feature:65)
+]]></failure>
+</testcase>
+<testcase classname="Feature to deal with a quickpost" name="Editing a quickpost with text only" time="20.209">
+<system-out><![CDATA[Given Editing a quickpost...................................................passed
+And user is on a login page.................................................passed
+When user enters both username and password.................................passed
+And clicks on a login button................................................passed
+Then user on a home page....................................................passed
+And user clicks on editing a quickpost with text only.......................passed
+]]></system-out>
+</testcase>
+<testcase classname="Feature to deal with a quickpost" name="Editing a quickpost with an image" time="43.933">
+<system-out><![CDATA[Given Editing a quickpost...................................................passed
+And user is on a login page.................................................passed
+When user enters both username and password.................................passed
+And clicks on a login button................................................passed
+Then user on a home page....................................................passed
+And user clicks on editing a quickpost with an image........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Feature to deal with a quickpost" name="Editing a quickpost with a folder" time="67.7">
+<system-out><![CDATA[Given Editing a quickpost...................................................passed
+And user is on a login page.................................................passed
+When user enters both username and password.................................passed
+And clicks on a login button................................................passed
+Then user on a home page....................................................passed
+And user clicks on editing a quickpost with an folder.......................passed
+]]></system-out>
+</testcase>
+<testcase classname="Feature to deal with a quickpost" name="Deleting a quickpost" time="37.069">
+<system-out><![CDATA[Given Deleting a quickpost..................................................passed
+And user is on a loginpage..................................................passed
+When user enters both username & password...................................passed
+And clicks on a loginbutton.................................................passed
+Then user on a homepage.....................................................passed
+When user clicks on deleting a quickpost....................................passed
+]]></system-out>
+</testcase>
+</testsuite>

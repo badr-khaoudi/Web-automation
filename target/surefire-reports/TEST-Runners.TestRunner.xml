@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Runners.TestRunner" time="704.72" tests="20" errors="3" skipped="0" failures="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jre1.8.0_271\bin"/>
+    <property name="java.vm.version" value="25.271-b09"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\BADR\eclipse-workspace\AQL-Testing\TestAutomation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="FR"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\BADR\eclipse-workspace\AQL-Testing\TestAutomation"/>
+    <property name="java.runtime.version" value="1.8.0_271-b09"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jre1.8.0_271\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\BADR\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Users\BADR\eclipse-workspace\AQL-Testing\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf4091341201261480702.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jre1.8.0_271\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_271/bin/server;C:/Program Files/Java/jre1.8.0_271/bin;C:/Program Files/Java/jre1.8.0_271/lib/amd64;C:\ProgramData\Anaconda3;C:\ProgramData\Anaconda3\Library\mingw-w64\bin;C:\ProgramData\Anaconda3\Library\usr\bin;C:\ProgramData\Anaconda3\Library\bin;C:\ProgramData\Anaconda3\Scripts;C:\Program Files (x86)\VMware\VMware Workstation\bin\;E:\app\BADR\product\11.2.0\dbhome_2\bin;E:\app\BADR\product\11.2.0\dbhome_1\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\STMicroelectronics\st7toolset\asm;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files (x86)\Yarn\bin\;C:\Program Files (x86)\Bitvise SSH Client;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Java\jdk1.8.0_251\bin;C:\opt\apache-maven-3.6.3\bin;C:\src\flutter\bin;C:\Program Files\JacORB\jacorb-3.8\bin;C:\Program Files\OpenORB\OpenORB\bin;C:\Program Files\MongoDB\mongodb-win32-x86_64-2008plus-ssl-4.0.3\bin;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\PuTTY\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\BADR\AppData\Local\Programs\Python\Python38-32\Scripts\;C:\Users\BADR\AppData\Local\Programs\Python\Python38-32\;C:\Users\BADR\AppData\Local\Microsoft\WindowsApps;C:\Users\BADR\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\BADR\AppData\Roaming\npm;C:\Users\BADR\AppData\Local\atom\bin;C:\Users\BADR\AppData\Local\Yarn\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.3.3\bin;;C:\opt\apache-maven-3.6.3\bin;C:\Program Files\Java\jdk1.8.0_251\bin;C:\Program Files\JetBrains\IntelliJ IDEA 2020.1\bin;;C:\src\flutter\bin;C:\Program Files\heroku\bin;C:\Program Files\JacORB\jacorb-3.8\bin;C:\Program Files\OpenORB\OpenORB\bin;C:\Users\BADR\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\WebStorm 2020.3.2\bin;;;C:\Users\BADR\Eclipse\jee-2020-03\eclipse;;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\BADR"/>
+    <property name="user.timezone" value="Africa/Casablanca"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="BADR"/>
+    <property name="java.class.path" value="C:\Users\BADR\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_1.15.0.20200310-1832\jars\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jre1.8.0_271"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="fr"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_271"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jre1.8.0_271\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jre1.8.0_271\lib\resources.jar;C:\Program Files\Java\jre1.8.0_271\lib\rt.jar;C:\Program Files\Java\jre1.8.0_271\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_271\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_271\lib\jce.jar;C:\Program Files\Java\jre1.8.0_271\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_271\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_271\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Users\BADR\eclipse-workspace\AQL-Testing\TestAutomation\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="Check liking content" classname="Feature to deal with some action to different content" time="22.475"/>
+  <testcase name="Check commenting content with text only" classname="Feature to deal with some action to different content" time="22.86"/>
+  <testcase name="Check commenting content with an image" classname="Feature to deal with some action to different content" time="75.783"/>
+  <testcase name="Check commenting content with a document" classname="Feature to deal with some action to different content" time="46.288"/>
+  <testcase name="Check commenting content with a link" classname="Feature to deal with some action to different content" time="35.338">
+    <error message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;div[@ng-click=&quot;$ctrl.onClick($index)&quot;]&quot;}&#10;  (Session info: chrome=89.0.4389.90)&#10;For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element&#10;Build info: version: &apos;4.0.0-alpha-5&apos;, revision: &apos;b3a0d621cc&apos;&#10;System info: host: &apos;LAPTOP-9Q7NUHUF&apos;, ip: &apos;10.17.44.15&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_271&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.90, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\BADR\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:59577}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 8acd16ff3240a22bfdc7636b40d1e3f5&#10;*** Element info: {Using=xpath, value=div[@ng-click=&quot;$ctrl.onClick($index)&quot;]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"div[@ng-click="$ctrl.onClick($index)"]"}
+  (Session info: chrome=89.0.4389.90)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.0.0-alpha-5', revision: 'b3a0d621cc'
+System info: host: 'LAPTOP-9Q7NUHUF', ip: '10.17.44.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.90, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\BADR\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:59577}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 8acd16ff3240a22bfdc7636b40d1e3f5
+*** Element info: {Using=xpath, value=div[@ng-click="$ctrl.onClick($index)"]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:196)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:129)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:161)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:582)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:333)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:451)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:394)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:325)
+	at StepDefinitions.ActionSteps.commenting_content_link(ActionSteps.java:144)
+	at ✽.user comments content with a link(file:///C:/Users/BADR/eclipse-workspace/AQL-Testing/TestAutomation/src/test/resources/Features/Action.feature:46)
+</error>
+    <system-out><![CDATA[Inside Step -Browser is open
+Project path is:C:\Users\BADR\eclipse-workspace\AQL-Testing\TestAutomation
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 88.0.4324.96 (68dba2d8a0b149a1d3afac56fa74648032bcf46b-refs/branch-heads/4324@{#1784}) on port 25895
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1617148336.008][WARNING]: This version of ChromeDriver has not been tested with Chrome version 89.
+mars 31, 2021 12:52:16 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFOS: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="Check adding an article" classname="Feature to deal with an article" time="5.28">
+    <error message="unknown error: Chrome failed to start: exited normally.&#10;  (chrome not reachable)&#10;  (The process started from chrome location C:\Program Files (x86)\Google\Chrome\Application\chrome.exe is no longer running, so ChromeDriver is assuming that Chrome has crashed.)&#10;Build info: version: &apos;4.0.0-alpha-5&apos;, revision: &apos;b3a0d621cc&apos;&#10;System info: host: &apos;LAPTOP-9Q7NUHUF&apos;, ip: &apos;10.17.44.15&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_271&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: Backtrace:&#10;	GetHandleVerifier [0x005EB963+483]&#10;	GetHandleVerifier [0x005EB941+449]&#10;	GetHandleVerifier [0x00993308+3832712]&#10;	GetHandleVerifier [0x009A9FA6+3926054]&#10;	GetHandleVerifier [0x009A7D9C+3917340]&#10;	GetHandleVerifier [0x009CE7FE+4075646]&#10;	GetHandleVerifier [0x009CE56C+4074988]&#10;	GetHandleVerifier [0x009CB2EB+4062059]&#10;	GetHandleVerifier [0x009AED14+3945876]&#10;	GetHandleVerifier [0x009AFBCE+3949646]&#10;	GetHandleVerifier [0x009AFB59+3949529]&#10;	Ordinal0 [0x005AB5CC+46540]&#10;	Ordinal0 [0x005A9F53+40787]&#10;	Ordinal0 [0x005A9B12+39698]&#10;	GetHandleVerifier [0x008B1468+2907368]&#10;	GetHandleVerifier [0x006F71EE+1096302]&#10;	GetHandleVerifier [0x006B3E8D+821005]&#10;	GetHandleVerifier [0x006B396B+819691]&#10;	GetHandleVerifier [0x006B3881+819457]&#10;	GetHandleVerifier [0x006DF463+998627]&#10;	BaseThreadInitThunk [0x752CFA29+25]&#10;	RtlGetAppContainerNamedObjectPath [0x773A7C7E+286]&#10;	RtlGetAppContainerNamedObjectPath [0x773A7C4E+238]&#10;" type="org.openqa.selenium.WebDriverException"><![CDATA[org.openqa.selenium.WebDriverException: unknown error: Chrome failed to start: exited normally.
+  (chrome not reachable)
+  (The process started from chrome location C:\Program Files (x86)\Google\Chrome\Application\chrome.exe is no longer running, so ChromeDriver is assuming that Chrome has crashed.)
+Build info: version: '4.0.0-alpha-5', revision: 'b3a0d621cc'
+System info: host: 'LAPTOP-9Q7NUHUF', ip: '10.17.44.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	GetHandleVerifier [0x005EB963+483]
+	GetHandleVerifier [0x005EB941+449]
+	GetHandleVerifier [0x00993308+3832712]
+	GetHandleVerifier [0x009A9FA6+3926054]
+	GetHandleVerifier [0x009A7D9C+3917340]
+	GetHandleVerifier [0x009CE7FE+4075646]
+	GetHandleVerifier [0x009CE56C+4074988]
+	GetHandleVerifier [0x009CB2EB+4062059]
+	GetHandleVerifier [0x009AED14+3945876]
+	GetHandleVerifier [0x009AFBCE+3949646]
+	GetHandleVerifier [0x009AFB59+3949529]
+	Ordinal0 [0x005AB5CC+46540]
+	Ordinal0 [0x005A9F53+40787]
+	Ordinal0 [0x005A9B12+39698]
+	GetHandleVerifier [0x008B1468+2907368]
+	GetHandleVerifier [0x006F71EE+1096302]
+	GetHandleVerifier [0x006B3E8D+821005]
+	GetHandleVerifier [0x006B396B+819691]
+	GetHandleVerifier [0x006B3881+819457]
+	GetHandleVerifier [0x006DF463+998627]
+	BaseThreadInitThunk [0x752CFA29+25]
+	RtlGetAppContainerNamedObjectPath [0x773A7C7E+286]
+	RtlGetAppContainerNamedObjectPath [0x773A7C4E+238]
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$1(ProtocolHandshake.java:126)
+	at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Unknown Source)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)
+	at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
+	at java.util.stream.ReferencePipeline.findFirst(Unknown Source)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:139)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:582)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:216)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:136)
+	at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:75)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:163)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:150)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:105)
+	at StepDefinitions.ArticleSteps.browser_is_open(ArticleSteps.java:33)
+	at ✽.Adding an article(file:///C:/Users/BADR/eclipse-workspace/AQL-Testing/TestAutomation/src/test/resources/Features/Article.feature:4)
+]]></error>
+    <system-out><![CDATA[Inside Step -Browser is open
+Project path is:C:\Users\BADR\eclipse-workspace\AQL-Testing\TestAutomation
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 88.0.4324.96 (68dba2d8a0b149a1d3afac56fa74648032bcf46b-refs/branch-heads/4324@{#1784}) on port 6828
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+]]></system-err>
+  </testcase>
+  <testcase name="User is checking an external link" classname="User is checking the content available on the web site" time="30.003"/>
+  <testcase name="Check adding a quickpost successfully with an image" classname="User is checking the content available on the web site" time="30.642"/>
+  <testcase name="User is checking an image" classname="User is checking the content available on the web site" time="16.451"/>
+  <testcase name="Check adding a quickpost successfully with a document" classname="User is checking the content available on the web site" time="31.635"/>
+  <testcase name="User is checking a document" classname="User is checking the content available on the web site" time="22.584"/>
+  <testcase name="Check login successfully" classname="Feature to test the login functionality" time="23.854"/>
+  <testcase name="Check adding a quickpost successfully with text only" classname="Feature to deal with a quickpost" time="58.377"/>
+  <testcase name="Check adding a quickpost successfully with an image" classname="Feature to deal with a quickpost" time="56.684"/>
+  <testcase name="Check adding a quickpost successfully with a document" classname="Feature to deal with a quickpost" time="37.054"/>
+  <testcase name="Check adding a quickpost successfully with an external link" classname="Feature to deal with a quickpost" time="20.493">
+    <error message="javascript error: Unable to find owning document&#10;  (Session info: chrome=89.0.4389.90)&#10;Build info: version: &apos;4.0.0-alpha-5&apos;, revision: &apos;b3a0d621cc&apos;&#10;System info: host: &apos;LAPTOP-9Q7NUHUF&apos;, ip: &apos;10.17.44.15&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_271&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.90, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\BADR\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:60355}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 47bd7c3353a3215ddf5b03da34c97d95" type="org.openqa.selenium.JavascriptException">org.openqa.selenium.JavascriptException: javascript error: Unable to find owning document
+  (Session info: chrome=89.0.4389.90)
+Build info: version: '4.0.0-alpha-5', revision: 'b3a0d621cc'
+System info: host: 'LAPTOP-9Q7NUHUF', ip: '10.17.44.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.90, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\BADR\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:60355}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 47bd7c3353a3215ddf5b03da34c97d95
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:196)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:129)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:161)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:582)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:316)
+	at org.openqa.selenium.remote.RemoteWebElement.submit(RemoteWebElement.java:90)
+	at StepDefinitions.QuickpostSteps.adding_external_link(QuickpostSteps.java:158)
+	at ✽.adding a new external link(file:///C:/Users/BADR/eclipse-workspace/AQL-Testing/TestAutomation/src/test/resources/Features/Quickpost.feature:65)
+</error>
+    <system-out><![CDATA[Inside Step -Browser is open
+Project path is:C:\Users\BADR\eclipse-workspace\AQL-Testing\TestAutomation
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 88.0.4324.96 (68dba2d8a0b149a1d3afac56fa74648032bcf46b-refs/branch-heads/4324@{#1784}) on port 11191
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1617148683.852][WARNING]: This version of ChromeDriver has not been tested with Chrome version 89.
+mars 31, 2021 12:58:03 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFOS: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="Editing a quickpost with text only" classname="Feature to deal with a quickpost" time="20.211"/>
+  <testcase name="Editing a quickpost with an image" classname="Feature to deal with a quickpost" time="43.934"/>
+  <testcase name="Editing a quickpost with a folder" classname="Feature to deal with a quickpost" time="67.702"/>
+  <testcase name="Deleting a quickpost" classname="Feature to deal with a quickpost" time="37.072"/>
+</testsuite>
