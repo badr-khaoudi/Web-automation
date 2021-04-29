@@ -3,7 +3,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2021-04-29T23:19:22.299Z",
+        "start_timestamp": "2021-04-29T23:40:31.285Z",
         "line": 4,
         "name": "Check login successfully",
         "description": "",
@@ -13,7 +13,7 @@
         "steps": [
           {
             "result": {
-              "duration": 5496000000,
+              "duration": 3848000000,
               "status": "passed"
             },
             "line": 5,
@@ -25,7 +25,7 @@
           },
           {
             "result": {
-              "duration": 14762000000,
+              "duration": 23621000000,
               "status": "passed"
             },
             "line": 6,
@@ -37,7 +37,7 @@
           },
           {
             "result": {
-              "duration": 319000000,
+              "duration": 276000000,
               "status": "passed"
             },
             "line": 7,
@@ -49,7 +49,7 @@
           },
           {
             "result": {
-              "duration": 17553000000,
+              "duration": 37408000000,
               "status": "passed"
             },
             "line": 8,
@@ -61,7 +61,7 @@
           },
           {
             "result": {
-              "duration": 10000000,
+              "duration": 35000000,
               "status": "passed"
             },
             "line": 9,

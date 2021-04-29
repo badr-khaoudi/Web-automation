@@ -6,4 +6,3 @@ Feature: Feature to test the login functionality
 		And user is on login page
 		When user enters username and password
 		And clicks on login button
-		Then user on home page
