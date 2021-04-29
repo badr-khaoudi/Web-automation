@@ -104,4 +104,6 @@ Feature: Feature to deal with a quickpost
 		And clicks on a loginbutton
 		Then user on a homepage
 		When user clicks on deleting a quickpost
+		Then Showing reports path
+		
 		

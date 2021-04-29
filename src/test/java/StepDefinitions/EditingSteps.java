@@ -27,7 +27,7 @@ public class EditingSteps {
 		System.out.println("Inside Step -Browser is open");
 		String projectPath=System.getProperty("user.dir");
 		System.out.println("Project path is:"+projectPath);
-		System.setProperty("webdriver.chrome.driver", projectPath+"/src/test/resources/Drivers/chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", projectPath+"/src/test/resources/Drivers/chromedriver1.exe");
 		
 		driver =new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(60,TimeUnit.SECONDS);
