@@ -9,7 +9,7 @@ import io.cucumber.junit.CucumberOptions;
 @CucumberOptions(features="src/test/resources/Features"
 ,glue= {"StepDefinitions"}
 ,plugin= {
-		"html:target/cucumber-html-report","json:target/cucumber-reports/cucumber.json","junit:target/cucumber-reports/cucumber.xml","html:test output"}
+		"html:target/cucumber-html-report","json:target/cucumber-reports/cucumber.json","junit:target/cucumber-reports/cucumber.xml","html:test-output"}
 ,dryRun = false,
 monochrome=true,
 tags = {"@SmokeTest"}
