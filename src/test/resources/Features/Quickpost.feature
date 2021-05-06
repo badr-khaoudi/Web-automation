@@ -1,3 +1,4 @@
+@SmokeTest
 Feature: Feature to deal with a quickpost 
 	
 	Scenario: Check adding a quickpost successfully with text only
