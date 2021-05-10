@@ -16,7 +16,6 @@ Feature: Feature to deal with a quickpost
 		And filling text area
 		And submitting the quickpost
   
-  
 	Scenario: Check adding a quickpost successfully with an image
 
 		Given Browser is open
